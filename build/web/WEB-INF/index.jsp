@@ -47,7 +47,8 @@
                                 <label for="title" class="form-label">Titulo da Tarefa</label>
                                 <input class="form-control" id="title" name="title">
                             </div>
-                            <button type="submit" class="btn btn-success">Adicionar</button>
+                           <input type="hidden" name="action" value="create" /> 
+                           <button type="submit" class="btn btn-success">Adicionar</button>
                         </form>
                     </div>
 
